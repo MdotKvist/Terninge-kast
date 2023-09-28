@@ -25,7 +25,7 @@ int main()
         int random = (rand() % 6) + 1;
         resultater.push_back(random);
     }
-
+    
     for (int i = 1; i < resultater.size(); i++)
     {
         int current = resultater[i];
